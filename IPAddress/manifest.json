@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "查看我的IP",
+    "version": "1.0",
+    "description": "查看本机的公网IP",
+    "icons": {
+        "16": "images/sun16.png",
+        "48": "images/sun48.png",
+        "128": "images/sun128.png"
+    },
+    "browser_action": {
+        "default_icons": {
+            "16": "images/icons16.png",
+            "48": "images/icons48.png"
+        },
+        "default_title": "查看我的IP",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "http://baidu.com/*"
+    ]
+}
